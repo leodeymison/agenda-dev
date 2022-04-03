@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+.Primary{
+    width: 350px;
+    border: solid 2px greenyellow;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(49, 49, 49);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,84 @@
+.Tasks{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+.Tasks::-webkit-scrollbar{
+    width: 6px;
+}
+.Tasks::-webkit-scrollbar-thumb{
+    width: 6px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+.Tasks .Task{
+    background-color: rgb(58, 57, 57);
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.Tasks .Task.active{
+    border-left: solid 7px greenyellow;
+}
+
+
+
+/* Options */
+.Options{
+    display: flex;
+    position: relative;
+}
+.Options span{
+    cursor: pointer;
+}
+
+.Options ul{
+    background-color: rgb(56, 55, 55);
+    list-style: none;
+    position: absolute;
+    right: 150%;
+    padding: 1px;
+}
+.Options ul.active{
+    display: block;
+}
+.Options ul li{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+}
+.Options ul li a{
+    display: flex;
+}
+.Options ul li span{
+    margin-right: 5px;
+}
+.Options ul li:hover{
+    background-color: rgb(85, 85, 85);
+}
+
+
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.name{
+    width: 100%;
+}
+.i{
+    margin-right: 3px;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+a{
+    text-decoration: none;
+}

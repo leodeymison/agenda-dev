@@ -1,0 +1,27 @@
+.BtnRouter{
+    display: flex;
+    justify-content: flex-end;
+    font-family: monospace;
+}
+.BtnRouter a{
+    background-color: greenyellow;
+    padding: 7px 10px;
+    text-decoration: none;
+    color:rgb(36, 36, 36);
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+}
+.BtnRouter a:hover{
+    background-color: rgb(164, 255, 27);
+}
+
+.BtnSubmit{
+    background-color: greenyellow;
+    padding: 7px 10px;
+    text-decoration: none;
+    color:rgb(36, 36, 36);
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+}
