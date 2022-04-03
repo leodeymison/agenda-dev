@@ -1,7 +1,8 @@
 # Functions
-[] - Estilização moderna
-[] - Pesquisa
-[] - Marcação de finalização
-[] - Lista de finalizados com opção de voltar
-[] - Detalhes
-[] - Alarme no horário
+[ X ] - Estilização moderna <br />
+[ X ] - Pesquisa <br />
+[   ] - CRUD <br />
+[   ] - Marcação de finalização <br />
+[   ] - Lista de finalizados com opção de voltar <br />
+[   ] - Detalhes <br />
+[   ] - Alarme no horário <br />
